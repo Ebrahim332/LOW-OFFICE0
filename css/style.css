@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    background-color:#FFFFFF ;
+}
+header{
+    min-height: 100vh;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7)) 
+    , url(..//images/header.jpg);
+
+    background-position: center;
+    background-size: cover;
+}
+.nav-item{
+    margin: 0 15px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.navbar{
+    box-shadow: 0 1px 10px #C0B597 ;
+}
+.hero-box{
+    position: absolute;
+    top: 40%; left: 10%;
+}
+span{
+    color: #C0B597;
+}
+.btn{
+    background-color: #C0B597;
+    color: white;
+}
+.btn:hover{
+    color: #C0B597;
+    background-color: white;
+}
+pre{
+    color: #C0B597;
+}
+.sec{
+    float: left;
+}
+.ll{
+    
+    font-size: 75px;
+}
+.ft{
+    font-size: 16px;
+}
+hr{
+    width: 100px;
+    margin: 20px auto;
+    border: solid 2px #C0B597;
+}
+.rr{
+   
+    color: #C0B597;
+}
+.lion img{
+    box-shadow:-24px -14px 6px #C0B597;
+}
+.ss,.yy , .auther,.xx {
+    background-color:#F7F7F7 ;
+}
+.mm{
+    background-color: #F7F7F7;
+    color: #C0B597;
+    margin-left: 10px;
+    padding-left: 150px;
+   font-size:  75px;
+    
+    
+
+}
+h2{
+    text-align: center;
+}
+.team{
+    /* padding: 0 !important; */
+
+    overflow: hidden;
+}
+
+.team img{
+    width: 100%;
+    margin-bottom: -5px;
+    opacity: .7;
+    transition: 1s;
+    transform: scale(1.1);
+
+}
+.team img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+.fifth i ,.auther i{
+
+    background-color: #F7F7F7;
+    color: #C0B597;
+    margin-left: 10px;
+  
+   font-size:  60px;
+}
+
+.auther img{
+    margin-top: -100px;
+}
+footer{
+    padding: 40px 0px;
+    background-color: #000000;
+}
+footer p{
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+}
+.footer-nav,.social-nav{
+    list-style: none;
+    display: flex;
+}
+.footer-nav li,.social-nav li{
+
+    padding: 0 15px;
+}
+.footer-nav li a,.social-nav li a{
+
+    text-decoration: none;
+    color: #C0B597;
+    text-transform: uppercase;
+}
+.footer-nav li a:hover,.social-nav li a:hover{
+
+    text-decoration: underline;
+    color: orange;
+   
+}
+
